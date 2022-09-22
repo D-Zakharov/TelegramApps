@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AnyDocType" xml:space="preserve">
+    <value>Любой тип документа</value>
+  </data>
+  <data name="ChainNotFound" xml:space="preserve">
+    <value>Неизвестная команда</value>
+  </data>
+  <data name="ChooseDocType" xml:space="preserve">
+    <value>Выберите тип документа</value>
+  </data>
+  <data name="CommandIsEmpty" xml:space="preserve">
+    <value>Недопустимое действие, попробуйте еще раз</value>
+  </data>
+  <data name="DocApiIsUnavailable" xml:space="preserve">
+    <value>Сервис недоступен. Пожалуйста, попробуйте позже</value>
+  </data>
+  <data name="DocsNotFound" xml:space="preserve">
+    <value>Документы не найдены</value>
+  </data>
+  <data name="DocumentsList" xml:space="preserve">
+    <value>Перечень найденных документов:</value>
+  </data>
+  <data name="EnterDateFrom" xml:space="preserve">
+    <value>Введите минимальную дату документа в формате ДД.ММ.ГГГГ (напр. 27.01.2020). Если допустимо любое значение, нажмите {0}</value>
+  </data>
+  <data name="EnterDateTo" xml:space="preserve">
+    <value>Введите максимальную дату документа в формате ДД.ММ.ГГГГ (напр. 27.01.2020). Если допустимо любое значение, нажмите {0}</value>
+  </data>
+  <data name="EnterDocNum" xml:space="preserve">
+    <value>Введите номер документа, или его часть. Если допустимо любое значение, нажмите {0}</value>
+  </data>
+  <data name="EnterMainDocNum" xml:space="preserve">
+    <value>Введите номер основного договора, или его часть. Если допустимо любое значение, нажмите {0}</value>
+  </data>
+  <data name="FileIsTooBig" xml:space="preserve">
+    <value>Превышен максимальный размер файла</value>
+  </data>
+  <data name="MenuCaption" xml:space="preserve">
+    <value>Меню</value>
+  </data>
+  <data name="ResultsCountIsTooBig" xml:space="preserve">
+    <value>Количество найденных документов превышает максимально возможное. Попробуйте сузить область поиска.</value>
+  </data>
+  <data name="SuccessfullAuthorization" xml:space="preserve">
+    <value>Аккаунт был успешно привязан</value>
+  </data>
+  <data name="UnknownCommand" xml:space="preserve">
+    <value>Неизвестная команда</value>
+  </data>
+  <data name="UnknownPhone" xml:space="preserve">
+    <value>Данный номер не найден</value>
+  </data>
+  <data name="UnknownStepCode" xml:space="preserve">
+    <value>Неизвестная последовательность. Пожалуйста, попробуйте начать заново.</value>
+  </data>
+  <data name="WelcomeMessage" xml:space="preserve">
+    <value>Приветствуем вас! Для привязки аккаунта telegram к аккаунту портала фермеров, пожалуйста, нажмите "Отправить контактные данные"</value>
+  </data>
+  <data name="WrongDateFormat" xml:space="preserve">
+    <value>Некорректный формат даты</value>
+  </data>
+  <data name="WrongExtension" xml:space="preserve">
+    <value>Разрешены только файлы с расширением .pdf</value>
+  </data>
+</root>
